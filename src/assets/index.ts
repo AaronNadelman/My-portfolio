@@ -1,0 +1,1 @@
+export * from "/MyPortfolio/my-portfolio/src/assets"

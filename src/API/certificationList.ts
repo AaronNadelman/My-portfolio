@@ -1,3 +1,5 @@
+
+
 export interface certificationInterface {
   id: number;
   img: string; // Path to the certification image
@@ -29,16 +31,16 @@ export const certificationList: certificationInterface[] = [
   },
   {
     id: 3,
-    img: '/certifications/JStitulo.svg',
+    img: '/certifications/JStitulo.jpg',
     title: 'JavaScript',
     duration: 'Tres meses',
     institute: 'CODER HOUSE',
     skills: 'NodeJs, DOM, Ajax y fetch',
-    description: 'Curso completo de JavaScript',
+    description: 'Desarrollo de un sitio web, peticiones a una API, storage y JSON, eventos.',
   },
   {
     id: 4,
-    img: '/certifications/ReactTitulo.svg',
+    img: '/certifications/ReactTitulo.jpg',
     title: 'Curso de desarrollo web con React Js',
     duration: 'Cuatro meses',
     institute: 'CODER HOUSE',
