@@ -54,7 +54,7 @@ function Nav() {
               </Link>
             </li>
             <li>
-              <Link to="/cv-resume">Cv / Resume</Link>
+              <Link to="/sobre-mi">Sobre Mi</Link>
             </li>
             <li>
               <Link to="/contacto">Contacto</Link>
@@ -80,21 +80,14 @@ function Nav() {
               className="btn btn-ghost btn-xs sm:btn-sm md:btn-md lg:btn-md"
               to="/sobre-mi"
             >
-              Sobre mí
+              Sobre Mi
             </Link>
           </li>
+
           <li>
             <Link
               className="btn btn-ghost btn-xs sm:btn-sm md:btn-md lg:btn-md"
-              to="/trayectoria"
-            >
-              Trayectoria
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="btn btn-ghost btn-xs sm:btn-sm md:btn-md lg:btn-md"
-              to="/resume"
+              to="/contacto"
             >
               Contacto
             </Link>
@@ -138,6 +131,7 @@ function Nav() {
             </label>
       </div>
       <div className="navbar-end">
+        <p>Github</p>
         <a
           href="https://github.com/AaronNadelman?tab=repositories"
           className="flex items-center"

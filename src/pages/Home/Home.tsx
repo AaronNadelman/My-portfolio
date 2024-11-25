@@ -1,9 +1,10 @@
-import Hero from '../../components/Hero/Hero'
+import HeroHome from '../../components/Hero/HeroHome.tsx'
+// import SobreMi from '../SobreMi/SobreMi'
 
 function Home() {
   return (
     <section className=' dark:bg-url(public\endless-constellation.svg)' id="home">
-      <Hero />
+      <HeroHome />
     </section>
   )
 }

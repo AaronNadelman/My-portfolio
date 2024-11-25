@@ -9,7 +9,8 @@ export default {
           ...require('daisyui/src/theming/themes')['light'],
           "primary": '#330033',
           "secondary": '#6881EC',
-          "background": "linear-gradient(to bottom, #6aead5, #dcd7fa)"
+          "background": "linear-gradient(to bottom, #748ffc, #b276ff)",
+          "text-color": "#040404"
 
           
         },

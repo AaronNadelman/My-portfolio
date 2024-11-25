@@ -4,7 +4,7 @@ import Home from './pages/Home/Home'
 import Certifications from './pages/Certifications/Certifications'
 import Contacto from './pages/Contacto/Contacto'
 import Layout from './routes/Layout/Layout'
-import Trayectoria from './pages/Cv-resume/Trayectoria'
+import SobreMi from './pages/SobreMi/SobreMi'
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
               />
             }
           />
-          <Route path="/trayectoria" element={<Trayectoria />} />
+          <Route path="/sobre-mi" element={<SobreMi />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </Layout>
